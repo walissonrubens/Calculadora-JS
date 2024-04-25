@@ -1,9 +1,5 @@
-body{
-    background-color: rgba(0, 0, 0, 0.849);
-}
-
-#calculadora-container{
-    background-color:rgba(0, 0, 0, 0.418);
+#calculadora-container {
+    background-color: #222326;
     color: white;
     display: flex;
     flex-direction: column;
@@ -19,45 +15,48 @@ body{
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.637);
 }
 
-#button-grid{
+#button-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     width: 200px;
     padding: 10px;
     justify-content: space-between;
-    gap: 2px;
+    gap: 1px;
 }
 
-#igual-row{
+#igual-row {
     grid-row: span 2;
 }
 
-#zero-col{
+#zero-col {
     grid-column: span 2;
 }
 
-header{
+header {
     margin-bottom: -30px;
 }
 
-#visor{
+#visor {
     background-color: white;
     color: black;
     margin: 10px;
-    padding: 10px;
+    max-height: 0px;
+    padding: 12px;
     width: 160px;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    border-radius: 4px;
 }
 
-button{
-    background-color: rgba(0, 0, 0, 0.452);
+button {
+    background-color: #3C3D40;
     color: white;
     border: 1px solid rgba(0, 0, 0, 0.288);
     padding: 10px;
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.774);
+    background-color: #0D0D0D;
 }

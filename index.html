@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -16,10 +16,10 @@
         <div id="visor"></div>
 
         <div id="button-grid">
-            <button class="botao" onclick="Delete()">C</button>
-            <button class="botao">&lt;</button>
+            <button onclick="Delete()">C</button>
+            <button onclick="Back()">&lt;</button>
             <button class="botao">/</button>
-            <button class="botao">X</button>
+            <button class="botao">*</button>
             <button class="botao numero">7</button>
             <button class="botao numero">8</button>
             <button class="botao numero">9</button>
@@ -31,13 +31,13 @@
             <button class="botao numero">1</button>
             <button class="botao numero">2</button>
             <button class="botao numero">3</button>
-            <button class="botao" id="igual-row">=</button>
+            <button id="igual-row" onclick="Calcular()">=</button>
             <button class="botao numero" id="zero-col">0</button>
-            <button class="botao">,</button>
+            <button class="botao">.</button>
         </div>
 
     </div>
-    <script src="script.js"></script>
+    <script src="script/script.js"></script>
 </body>
 
 </html>
